@@ -55,7 +55,7 @@ for(let meitre of meitresList) {
 					}
 				}
 				else {
-					message = 'Disponibilidad: \n'
+					message = 'Disponibilidad en ' + name + ':'+ \n'
 					for (let {date} of dates) {
 						const d = new Date(date)
 						
